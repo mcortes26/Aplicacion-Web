@@ -1,0 +1,455 @@
+html,body{
+    
+	background-color:#f2f2f2; 
+	
+}
+
+
+.Site-Header{
+
+    margin-top: 0rem;
+	height: 20rem;
+	width:94rem;
+	font-size: 30px;
+    background-color:white; 
+}
+.Logo-Container{
+
+    margin-left: 2rem;
+	height: 17rem;
+	width:40rem;
+	background: transparent;
+}
+
+#Logo-Image{
+	
+	margin-top: -10rem;
+	margin-left: -11rem;
+
+}
+
+h1
+{
+	font-family:'Pacifico';
+	font-size: 4rem;
+	margin-top: -25rem;
+	margin-left: 17rem;
+	color:black;
+}
+
+h2
+{
+	font-family:'Pacifico';
+	margin-top: -5rem;
+	margin-left: 18rem;
+	font-size: 4rem;
+	color:black;
+}
+
+h3
+{
+	font-family: 'Raleway', sans-serif;
+}
+.Menu
+{
+    margin-top: 0rem;
+	height: 3.5rem;
+	width:94rem;
+	background-color:#333;
+
+    
+}
+
+#Home-Icon{
+
+   position: absolute;
+   margin-top: -3.1rem;
+   margin-left: 43rem;
+
+}
+
+#Login-Icon{
+
+   position: absolute;
+   margin-top: -3.1rem;
+   margin-left: 53rem;
+
+}
+
+#Diet-Icon{
+
+   position: absolute;
+   margin-top: -2.8rem;
+   margin-left: 63rem;
+
+}
+
+#Contact-Icon{
+
+   position: absolute;
+   margin-top: -3.2rem;
+   margin-left: 73rem;
+
+}
+
+
+
+.Botones{
+
+    margin-left:40rem;
+	height: 3.5rem;
+	width:40.7rem;
+	background-color: #fff0b3;
+	background-color: #e6b800;  /*Efecto Blur con Color*/
+
+}
+
+
+.btn0
+{
+
+	
+	background-color: #ffdb4d;
+	margin-left: 0rem;
+	border: none;
+	color: white;
+	padding: 12px 16px;
+	font-size: 15px;
+	cursor: pointer;
+	font-family: ubuntu;
+	height:3.5rem;
+	width: 10rem;
+
+}
+
+
+.btn1
+{
+
+	
+	background-color: #ffdb4d;
+	margin-left:-.27rem;
+	border: none;
+	color: white;
+	padding: 12px 16px;
+	font-size: 15px;
+	cursor: pointer;
+	font-family: ubuntu;
+	height:3.5rem;
+	width: 10rem;
+
+}
+
+.btn2
+{
+
+	background-color: #ffdb4d;
+	margin-left:-.27rem;
+	border: none;
+	color: white;
+	padding: 12px 16px;
+	font-size: 15px;
+	cursor: pointer;
+	font-family: ubuntu;
+	height:3.5rem;
+	width: 10rem;
+}
+
+.btn3
+{
+	background-color: #ffdb4d;
+	margin-left:-.27rem;
+	border: none;
+	color: white;
+	padding: 12px 16px;
+	font-size: 15px;
+	cursor: pointer;
+	font-family: ubuntu;
+	height:3.5rem;
+	width: 10rem;
+}
+
+.btn0:hover
+{
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 5px 10px 20px #ffcc00;
+
+}
+
+.btn1:hover
+{
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 5px 10px 20px #ffcc00;
+
+}
+
+.btn2:hover
+{
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 5px 10px 20px #ffcc00;
+
+}
+
+.btn3:hover
+{
+  border: none;
+  background-color: #e60000: 
+  color: white;
+  padding: 12px 16px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 5px 10px 20px #ffcc00;
+
+}
+
+
+.Principal{
+    margin-top: 1rem;
+    margin-left: 10rem;
+
+    height:40rem;
+    width: 70rem;
+	
+
+    background: transparent;
+}
+
+/****************************Slide Show********************************/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+
+  margin-top: 0rem;
+  height:40rem;
+  width: 70rem;
+  background-color: transparent;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+
+  margin-top: 12rem;
+  margin-left: 10rem;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev{
+
+   margin-top: 12rem;
+
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+.Site-Footer{
+	position:absolute;
+	margin-top:55rem;
+	margin-left:80rem;
+}
+
+
+
+#Background-Image1{
+
+   
+   position: absolute;
+   height: 25rem;
+   width: 32rem;
+   margin-top: 2rem;
+   margin-left:-28rem;
+}
+
+#Background-Image2{
+
+   
+   position: absolute;
+   height: 25rem;
+   width: 32rem;
+   margin-top: 2rem;
+   margin-left:66rem;
+}
+
+
+
+
+
+
+
+/**************************Tab Section*****************************************/
+.Tab-Section
+{
+    position: absolute;
+    top:130%;
+    left:30%;
+    height: 500px;
+	width: 1400px;
+
+	margin-left:-400px;
+	margin-top:-58px;
+	min-height: 800px;
+	background-color:transparent;
+	overflow: hidden;
+}
+
+
+/* Style the tab */
+.tab 
+{
+    overflow: hidden;
+    border: none;
+	 
+    /*border: 0px solid #ccc;*/
+    background-color:transparent;
+}
+
+/* Style the buttons inside the tab */
+.tab button 
+{
+    top:110%;
+    left:50%;
+    margin-left:150px;
+    background-color:transparent;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border-radius: 80px;
+}
+
+#tab1:hover
+{
+  	transform: scale(1.1);
+	background-color:transparent;
+}
+
+#tab2:hover
+{
+	transform: scale(1.1);
+	background-color:transparent;
+}
+
+#tab3:hover
+{
+	background-color:transparent;
+	transform: scale(1.1);
+}
+
+
+.tab button:hover
+{
+	background-color:transparent;
+}
+
+
+.tab button.active
+{
+	background-color:transparent;
+}
+
+
+
+.tabcontent{
+    display: none;
+    padding: 6px 12px;
+   /* border: 1px solid #ccc;*/
+   /* border-top: none;*/
+}
+
